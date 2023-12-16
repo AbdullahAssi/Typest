@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #003950;
+}
+
+.category {
+  @apply cursor-pointer rounded-md p-2 font-mono text-xl;
+}
+
+@layer components {
+  .character:last-child::after {
+    content: '';
+    width: 2px;
+    height: 24px;
+    margin-bottom: -2px;
+    display: inline-block;
+    animation: cursorBlink 0.65s steps(2) infinite;
+  }
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+@keyframes cursorBlink {
+  0% {
+    opacity: 0;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 2em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+      background-color: #003950;
+      outline: 1px solid #003950;
+}
