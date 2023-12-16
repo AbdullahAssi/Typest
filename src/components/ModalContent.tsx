@@ -28,7 +28,7 @@ const StyledCopyButton = styled.button`
 
 const ModalContent = ({ totalTime, history, results }: ModalContentProps) => {
   const [copied, setCopied] = useState(false);
-  const [imageCopied, setImageCopied] = useState(false);
+  // const [imageCopied, setImageCopied] = useState(false);
 
   const { copyTextToClipboard } = useClipboard();
   // const { ref, image, getImage } = useScreenShot();
@@ -169,7 +169,7 @@ const ModalContent = ({ totalTime, history, results }: ModalContentProps) => {
           <span className='text-lg hover:underline'>
             Screenshot your results and share to your friends
           </span>
-          <div
+          {/* <div
             className='rounded-md'
             style={{
               backgroundColor: systemTheme.background.secondary,
@@ -183,7 +183,7 @@ const ModalContent = ({ totalTime, history, results }: ModalContentProps) => {
                 Image copied to clipboard 
               </span>
             ) : null}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
