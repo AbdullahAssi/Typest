@@ -4,7 +4,7 @@ Typest is a minimalistic typing speed testing app built with React and TailwindC
 
 ## Live Demo
 
-Check out the live demo [here](https://estifanos12.github.io/Typest/).
+Check out the live demo [here](https://typest-abdullahassi.vercel.app/).
 
 ## Current Features
 
