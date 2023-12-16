@@ -2,7 +2,7 @@
   "name": "typing-game",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://estifanos12.github.io/opentype",
+  "homepage": "https://estifanos12.github.io/Typest",
   "type": "module",
   "scripts": {
     "predeploy": "yarn build",

@@ -1,10 +1,10 @@
-# OpenType 🖮
+# Typest 🖮
 
-OpenType is a minimalistic typing speed testing app built with React and TailwindCSS that highly inspired by [MonkeyType](https://www.monkeytype.com). The app allows users to test and improve their typing speed and accuracy. The app provides a user-friendly interface and intuitive feedback on typing performance.
+Typest is a minimalistic typing speed testing app built with React and TailwindCSS that highly inspired by [MonkeyType](https://www.monkeytype.com). The app allows users to test and improve their typing speed and accuracy. The app provides a user-friendly interface and intuitive feedback on typing performance.
 
 ## Live Demo
 
-Check out the live demo [here](https://estifanos12.github.io/OpenType/).
+Check out the live demo [here](https://estifanos12.github.io/Typest/).
 
 ## Current Features
 
@@ -15,10 +15,9 @@ Check out the live demo [here](https://estifanos12.github.io/OpenType/).
 - **Change Theme**: Users can change the theme of the app based on their preference from available theme palette.
 - **Responsive Design**: The user interface is designed to be responsive and adapt to different screen sizes, making it accessible on various laptops or PCs.
 
-
 ## Screenshots with different themes
 
-<img width="800" alt="Screen Shot 2022-08-28 at 9 15 36 AM" src="https://github.com/Estifanos12/OpenType/blob/main/screenshots/screenshot-0.png?raw=true">
+<img width="800" alt="Screen Shot 2022-08-28 at 9 15 36 AM" src="https://github.com/Estifanos12/Typest/blob/main/screenshots/screenshot-0.png?raw=true">
 
 <br>
 
