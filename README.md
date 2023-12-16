@@ -1,3 +1,4 @@
+
 # Typest 🖮
 
 Typest is a minimalistic typing speed testing app built with React and TailwindCSS that highly inspired by [MonkeyType](https://www.monkeytype.com). The app allows users to test and improve their typing speed and accuracy. The app provides a user-friendly interface and intuitive feedback on typing performance.
@@ -17,7 +18,10 @@ Check out the live demo [here](https://typest-abdullahassi.vercel.app/).
 
 ## Screenshots with different themes
 
-<img width="800" alt="Screen Shot 2022-08-28 at 9 15 36 AM" src="https://github.com/Estifanos12/Typest/blob/main/screenshots/screenshot-0.png?raw=true">
+<img width="500" alt="Screen Shot " src="https://github.com/AbdullahAssi/Typest/assets/113567773/f8af742e-01f3-44d6-87e3-9b36657e2c30">
+<img width="500" alt="Screen Shot " src="https://github.com/AbdullahAssi/Typest/assets/![382shots_so](https://github.com/AbdullahAssi/Typest/assets/113567773/51bdc42e-7667-4a1e-bb2d-08283a9cc27a)
+113567773/f8af742e-01f3-44d6-87e3-9b36657e2c30">
+![516shots_so](https://github.com/AbdullahAssi/Typest/assets/113567773/163d7b7b-981e-4eff-a78a-62f55f9f8ef9)
 
 <br>
 
