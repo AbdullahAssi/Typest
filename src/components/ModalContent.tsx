@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 
 import { useClipboard } from '../hooks/useClipboard';
-import { useScreenShot } from '../hooks/useScreenShot';
+// import { useScreenShot } from '../hooks/useScreenShot';
 import { useThemeContext } from '../hooks/useTheme';
 
 import { IoCopy } from 'react-icons/io5';
@@ -31,7 +31,7 @@ const ModalContent = ({ totalTime, history, results }: ModalContentProps) => {
   const [imageCopied, setImageCopied] = useState(false);
 
   const { copyTextToClipboard } = useClipboard();
-  const { ref, image, getImage } = useScreenShot();
+  // const { ref, image, getImage } = useScreenShot();
   const { systemTheme } = useThemeContext();
 
   return (
@@ -42,7 +42,7 @@ const ModalContent = ({ totalTime, history, results }: ModalContentProps) => {
       }}
     >
       <div
-        ref={ref}
+        // ref={ref}
         className='flex-[3] px-5 py-7'
         style={{
           backgroundColor: systemTheme.background.primary,
@@ -146,24 +146,24 @@ const ModalContent = ({ totalTime, history, results }: ModalContentProps) => {
 
       <div className='flex flex-[1] flex-col px-5'>
         <div
-          className='group mt-auto flex cursor-pointer items-center gap-2 '
-          onClick={async () => {
-            try {
-              getImage();
-              const res = await fetch(image);
-              const data = await res.blob();
-              await navigator.clipboard.write([
-                new ClipboardItem({ [data.type]: data }),
-              ]);
+          // className='group mt-auto flex cursor-pointer items-center gap-2 '
+          // onClick={async () => {
+          //   try {
+          //     getImage();
+          //     const res = await fetch(image);
+          //     const data = await res.blob();
+          //     await navigator.clipboard.write([
+          //       new ClipboardItem({ [data.type]: data }),
+          //     ]);
 
-              setImageCopied(true);
-              setTimeout(() => {
-                setImageCopied(false);
-              }, 2000);
-            } catch (error) {
-              console.log(error);
-            }
-          }}
+          //     setImageCopied(true);
+          //     setTimeout(() => {
+          //       setImageCopied(false);
+          //     }, 2000);
+          //   } catch (error) {
+          //     console.log(error);
+          //   }
+          // }}
         >
           <FaCameraRetro className=' text-xl' />
           <span className='text-lg hover:underline'>

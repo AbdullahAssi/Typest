@@ -20,8 +20,7 @@
     "react-icons": "^4.10.1",
     "react-modal": "^3.16.1",
     "react-tooltip": "^5.16.1",
-    "styled-components": "^6.0.2",
-    "use-react-screenshot": "^3.0.0"
+    "styled-components": "^6.0.2"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
