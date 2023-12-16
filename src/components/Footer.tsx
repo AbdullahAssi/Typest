@@ -1,10 +1,16 @@
-import styled from 'styled-components';
-import { BsGithub, BsInstagram, BsWhatsapp, BsCodeSlash, BsLinkedin } from 'react-icons/bs';
+import styled from "styled-components";
+import {
+  BsGithub,
+  BsInstagram,
+  BsWhatsapp,
+  BsCodeSlash,
+  BsLinkedin,
+} from "react-icons/bs";
 
-import { useThemeContext } from '../hooks/useTheme';
+import { useThemeContext } from "../hooks/useTheme";
 
-import Tooltip from './Tooltip';
-import Social from './Social';
+import Tooltip from "./Tooltip";
+import Social from "./Social";
 
 const StyledLink = styled.a`
   &:hover {
@@ -15,42 +21,40 @@ const StyledLink = styled.a`
 const Footer = () => {
   const { systemTheme } = useThemeContext();
   return (
-    <footer className='mb-3 mt-auto'>
-      <div className=' flex items-center justify-between '>
-        <div className='flex items-center justify-center '>
-          <Tooltip tooltipId='Github'>
+    <footer className="mb-3 mt-auto">
+      <div className=" flex items-center justify-between ">
+        <div className="flex items-center justify-center ">
+          <Tooltip tooltipId="Github">
             <Social
-              url='http://github.com/AbdullahAssi'
-              tooltipContent='Github'
-              tooltipId='Github'
+              url="http://github.com/AbdullahAssi"
+              tooltipContent="Github"
+              tooltipId="Github"
             >
-              <BsGithub className='text-2xl' />
+              <BsGithub className="text-2xl" />
             </Social>
           </Tooltip>
-          <Tooltip tooltipId='Linkedin'>
+          <Tooltip tooltipId="Linkedin">
             <Social
-              url='https://www.linkedin.com/in/muhammad-abdullah-796597246/'
-              tooltipContent='Linkedin'
-              tooltipId='Linkedin'
+              url="https://www.linkedin.com/in/muhammad-abdullah-796597246/"
+              tooltipContent="Linkedin"
+              tooltipId="Linkedin"
             >
-              <BsLinkedin className='text-2xl' />
+              <BsLinkedin className="text-2xl" />
             </Social>
           </Tooltip>
 
-          <Tooltip tooltipId='Instagram'>
+          <Tooltip tooltipId="Instagram">
             <Social
-              url='https://www.instagram.com/abdullahassi225/'
-              tooltipContent='Instagram'
-              tooltipId='Instagram'
+              url="https://www.instagram.com/abdullahassi225/"
+              tooltipContent="Instagram"
+              tooltipId="Instagram"
             >
-              <BsInstagram className='text-2xl ' />
+              <BsInstagram className="text-2xl " />
             </Social>
           </Tooltip>
         </div>
 
-        <div>
-          Copyright Ⓒ 2023 OpenType. All Rights Reserved
-        </div>
+        <div>Copyright Ⓒ 2023 Typest. All Rights Reserved</div>
       </div>
     </footer>
   );
